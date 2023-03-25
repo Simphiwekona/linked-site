@@ -1,19 +1,21 @@
-import { MDBFooter, MDBContainer, MDBRow, MDBCol, MDBIcon } from 'mdb-react-ui-kit';
+import { MDBFooter, MDBContainer, MDBRow, MDBCol, MDBIcon, MDBBtn } from 'mdb-react-ui-kit';
 import '../footer/footer.css'
+import FacebookIcon from '@mui/icons-material/Facebook';
 
 import React from 'react'
 
 export default function Footer() {
   return (
-    <MDBFooter bgColor='dark' color='white' className='text-center text-lg-start text-muted shadow-1-strong'>
+    <MDBFooter bgColor='dark' color='white' className='text-center text-lg-start text-muted shadow-1-strong text-white'>
         <section className='d-flex justify-content-center justify-content-lg-between p-4 border-bottom'>
     <div className='me-5 d-none d-lg-block'>
         <span>Get connected with us on social networks:</span>
     </div>
 
-    <div>
-        <a href='' className='me-4 text-reset'>
-            <MDBIcon fab icon="facebook-f" />
+    <div className='text-white'>
+
+        <a href='' className='me-4 text-reset text-white'>
+            <FacebookIcon />
         </a>
         <a href='' className='me-4 text-reset'>
             <MDBIcon fab icon="twitter" />

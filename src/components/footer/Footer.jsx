@@ -1,6 +1,12 @@
 import { MDBFooter, MDBContainer, MDBRow, MDBCol, MDBIcon, MDBBtn } from 'mdb-react-ui-kit';
 import '../footer/footer.css'
 import FacebookIcon from '@mui/icons-material/Facebook';
+<<<<<<< HEAD
+=======
+import TwitterIcon from '@mui/icons-material/Twitter';
+import InstagramIcon from '@mui/icons-material/Instagram';
+import WhatsAppIcon from '@mui/icons-material/WhatsApp';
+>>>>>>> df6734fb088b2fde7990239edc7aa8ececc06bc9
 
 import React from 'react'
 
@@ -12,22 +18,24 @@ export default function Footer() {
         <span>Get connected with us on social networks:</span>
     </div>
 
+<<<<<<< HEAD
     <div className='text-white'>
 
         <a href='' className='me-4 text-reset text-white'>
+=======
+    <div>
+        <a href='https://www.facebook.com/linkeddigitalza' className='me-4 text-reset'>
+>>>>>>> df6734fb088b2fde7990239edc7aa8ececc06bc9
             <FacebookIcon />
         </a>
         <a href='' className='me-4 text-reset'>
-            <MDBIcon fab icon="twitter" />
+            <TwitterIcon />
           </a>
           <a href='' className='me-4 text-reset'>
-            <MDBIcon fab icon="google" />
+            <InstagramIcon />
           </a>
-          <a href='' className='me-4 text-reset'>
-            <MDBIcon fab icon="instagram" />
-          </a>
-          <a href='' className='me-4 text-reset'>
-            <MDBIcon fab icon="linkedin" />
+          <a href='https://api.whatsapp.com/send?phone=%2B27693001958&data=AWDto9Eisby6gpD6d-9roTatY7DcTwbUTgE-4quBiFErJ30veSFYiPJo46IvLAzY3V3Vz0MAcPWHMY2MoeAWVAmsGZ5IjzN18ryDEdxIg9tZmXLXUluZv1XREsb7WguSGeCCV-c1LTiWcBQsjIhu7f5zhPeac_vrn1CB4yD3rtzLHc9iqORbALUiga4PkbyXEN4E757OQH8zlBXLTmsl1OxqCCG8CAP6TD_n10wlUYk_fbWq85J8UXP6PaL8DdaDZDND_tjZHIMUsBkTLjpmfV1teJPqH4kbm4yjCMBGH15tWax_-1Y&source=FB_Page&app=facebook&entry_point=page_cta&fbclid=IwAR0zGCuXwh2Opp1N4czP-QZcD-jSohfUQbszCdU8pmYxRXH8_JqLEj979uY' className='me-4 text-reset'>
+            <WhatsAppIcon />
           </a>
     </div>
     </section>

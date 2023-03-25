@@ -5,12 +5,17 @@
   "dependencies": {
     "@emotion/react": "^11.10.6",
     "@emotion/styled": "^11.10.6",
+<<<<<<< HEAD
     "@material-ui/icons": "^4.11.3",
+=======
+    "@mui/icons-material": "^5.11.11",
+>>>>>>> df6734fb088b2fde7990239edc7aa8ececc06bc9
     "@mui/material": "^5.11.14",
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
     "bootstrap": "^5.0.1",
+    "mdb-react-ui-kit": "^5.1.0",
     "mdbootstrap": "^4.20.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
